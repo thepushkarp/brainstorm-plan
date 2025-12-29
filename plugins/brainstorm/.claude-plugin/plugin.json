@@ -1,0 +1,9 @@
+{
+  "name": "brainstorm",
+  "version": "1.0.0",
+  "description": "Turn fuzzy ideas into concrete design docs and implementation plans through guided Q&A",
+  "author": {
+    "name": "thepushkarp"
+  },
+  "keywords": ["brainstorm", "design", "planning", "spec", "documentation"]
+}
