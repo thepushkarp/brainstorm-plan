@@ -1,22 +1,25 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "brainstorm-plan",
-  "description": "Plugin marketplace for brainstorming and planning workflows in Claude Code",
   "owner": {
     "name": "thepushkarp",
     "email": "thepushkarp@gmail.com"
   },
+  "metadata": {
+    "description": "Plugin marketplace for brainstorming workflows in Claude Code",
+    "version": "2.0.0"
+  },
   "plugins": [
     {
       "name": "brainstorm",
-      "description": "Turn fuzzy ideas into concrete design docs and implementation plans through guided Q&A",
-      "version": "1.0.0",
+      "description": "Turn fuzzy ideas into concrete design docs through guided Q&A",
+      "version": "2.0.0",
       "author": {
         "name": "thepushkarp"
       },
       "source": "./plugins/brainstorm",
       "category": "productivity",
-      "keywords": ["brainstorm", "design", "planning", "spec", "documentation"],
+      "keywords": ["brainstorm", "design", "spec", "documentation"],
       "homepage": "https://github.com/thepushkarp/brainstorm-plan",
       "repository": "https://github.com/thepushkarp/brainstorm-plan"
     }
