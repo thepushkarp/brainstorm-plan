@@ -45,6 +45,30 @@ Interactive Q&A to refine an idea into a design specification.
 
 - Design docs: `docs/brainstorms/`
 
+## Release / Maintenance
+
+Before publishing changes:
+
+```bash
+claude plugin validate .
+claude plugin validate plugins/brainstorm
+```
+
+Publish updates:
+
+```bash
+git add .
+git commit -m "chore: <describe plugin update>"
+git push origin main
+```
+
+After pushing marketplace/plugin changes, consumers should refresh and reinstall/update:
+
+```bash
+/plugin marketplace update brainstorm-plan
+/plugin update brainstorm@brainstorm-plan
+```
+
 ## License
 
 MIT
