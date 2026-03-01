@@ -86,7 +86,7 @@ After all sections are confirmed:
 2. Create the directory if needed: `docs/brainstorms/`
 3. Write the complete design doc using the Write tool
 4. Tell the user where it was saved
-5. Suggest they can run `/brainstorm-plan` next to create an implementation plan
+5. Suggest they use their assistant's built-in plan mode next, using the saved design doc as reference
 
 ## Output Format
 

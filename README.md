@@ -1,6 +1,6 @@
-# Brainstorm Plan
+# Brainstorm
 
-A Claude Code plugin marketplace for turning fuzzy ideas into concrete design docs and implementation plans.
+A Claude Code plugin marketplace for turning fuzzy ideas into concrete design docs.
 
 Inspired by [Jesse Vincent's AI workflow](https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/).
 
@@ -36,32 +36,14 @@ Interactive Q&A to refine an idea into a design specification.
 /brainstorm user authentication       # Start with an initial idea
 ```
 
-### `/brainstorm-plan [design-doc-path]`
-
-Create a detailed implementation plan from a design doc or conversation.
-
-**Features:**
-- Written for engineers with zero codebase context
-- Bite-sized tasks with file references, tests, and commit messages
-- Emphasizes DRY, YAGNI, TDD, frequent commits
-- Saves to `docs/plans/<topic>-implementation.md`
-
-**Usage:**
-```
-/brainstorm-plan                                          # From conversation context
-/brainstorm-plan docs/brainstorms/user-authentication.md  # From specific design doc
-```
-
 ## Typical Workflow
 
 1. **Brainstorm** - `/brainstorm` to explore and refine your idea
-2. **Plan** - `/brainstorm-plan` to create detailed implementation tasks
-3. **Implement** - Use Claude Code's plan mode with the written plan as reference
+2. **Implement** - Use Claude Code's (or Codex's) built-in plan mode, using the saved design doc as reference
 
 ## Output Directories
 
 - Design docs: `docs/brainstorms/`
-- Implementation plans: `docs/plans/`
 
 ## License
 
